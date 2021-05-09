@@ -3,7 +3,7 @@ const {app, BrowserWindow, Notification} = require('electron')
 
 // app.on('ready', () => {
 //   win = new BrowserWindow()
-//   win.loadURL('https://www.baidu.com')
+//   win.loadFile('index.html') // win.loadUrl('https://www.baidu.com')
 // })
 
 function createWindow () {
